@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    IBM Confidential
+    OCO Source Materials
+    5725-S87
+    © Copyright IBM Corp. 2019
+    The source code for this program is not published or otherwise
+    divested of its trade secrets, irrespective of what has been
+    deposited with the U.S. Copyright Office.
+ -->
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>
+				%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} -
+				%msg%n
+			</Pattern>
+		</layout>
+	</appender>
+
+	<root level="DEBUG">
+		<!-- Remove comments for enabling Console Logging -->
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration> 
