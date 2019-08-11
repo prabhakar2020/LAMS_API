@@ -1,1 +1,36 @@
-/target/
+**/.metadata
+**/.classpath
+**/.project
+**/.classpath
+**/.settings/
+**/target/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.iml
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java annotation processor (APT)
+.factorypath
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Log Files
+**/*.log
+sms-manager-api_1.0-5.yaml
